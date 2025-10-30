@@ -2,8 +2,8 @@ import random
 import unittest
 import importlib
 import io
-import builtins
 import sys
+import builtins
 from unittest import mock
 import guess_the_word as game
 

@@ -2,7 +2,7 @@ import random
 """ Creates an interactive guessing game
 User guesses the word with limited guesses.
 """
-# Create list of randoms words. 
+# Create a list of randoms words. 
 random_word = ["panda", "flowers", "roses", "road", "plane"]
 # A random word is selected ans stored.
 word_choice = random.choice(random_word)
