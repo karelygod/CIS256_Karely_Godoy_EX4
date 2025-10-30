@@ -33,7 +33,7 @@ class TestGuess(unittest.TestCase):
         self.assertTrue("Congratulations" in o)
         self.assertTrue("roses" in o)
 
-    # Testing if exhausting wrong guesses will limit.
+    # Testing if exhausting wrong guesses will end game.
     def test_wrong_guesses(self):
         importlib.reload(game)
         game.word_choice = "road"

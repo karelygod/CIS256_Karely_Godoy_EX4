@@ -37,7 +37,7 @@ while limit > 0:
     if word_guessed not in word_choice:
         limit -= 1
         print(f"Incorrect word. You have {limit} guesses left")
-        # Once user runs out of limits, game over.
+        # If limits deplete, game over.
         if limit == 0:
             print("Game over, no more guesses left.")
 
