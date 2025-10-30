@@ -52,6 +52,5 @@ class TestGuess(unittest.TestCase):
         self.assertTrue("Incorrect" in o)
         self.assertTrue("Game over" in o)
 
-
 if __name__ == "__main__":
     unittest.main()
